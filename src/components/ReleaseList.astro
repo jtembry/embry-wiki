@@ -1,0 +1,11 @@
+---
+const { releases } = Astro.props;
+---
+{releases.length === 0 && <p>The release list could not be read at build time. See <a href="https://embry.dev/products">embry.dev</a>.</p>}
+{releases.map((r) => (
+	<section>
+		<h2 id={`v${String(r.version).replace(/\./g, '-')}`}>{r.version} <small>· {r.date}</small></h2>
+		{r.title && <p><strong>{r.title}</strong></p>}
+		<ul>{(r.notes || []).map((n) => <li>{n}</li>)}</ul>
+	</section>
+))}

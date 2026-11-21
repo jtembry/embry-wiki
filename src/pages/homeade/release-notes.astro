@@ -1,0 +1,10 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import ReleaseList from '../../components/ReleaseList.astro';
+import { loadReleases } from '../../lib/releases.js';
+const releases = await loadReleases('homeade');
+---
+<StarlightPage frontmatter={{ title: 'HomeADE release notes', description: 'What changed in each version of the desktop app, newest first.' }}>
+	<p>What changed in each version of the desktop app, newest first. The same list is on <a href="https://embry.dev/homeade#releases">embry.dev</a>.</p>
+	<ReleaseList releases={releases} />
+</StarlightPage>

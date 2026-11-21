@@ -1,0 +1,12 @@
+---
+// Release notes come from the one list the embry.dev site keeps (its product page and the App
+// Store "What's New" read the same file), fetched at build time, so nothing is written twice.
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import ReleaseList from '../../components/ReleaseList.astro';
+import { loadReleases } from '../../lib/releases.js';
+const releases = await loadReleases('fieldade');
+---
+<StarlightPage frontmatter={{ title: 'FieldADE release notes', description: 'What changed in each version of the iPhone app, newest first. The newest entry is the App Store What\'s New text.' }}>
+	<p>What changed in each version of the iPhone app, newest first. The newest entry is the text on the App Store under What's New. The same list is on <a href="https://embry.dev/fieldade#releases">embry.dev</a>.</p>
+	<ReleaseList releases={releases} />
+</StarlightPage>

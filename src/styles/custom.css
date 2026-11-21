@@ -1,0 +1,20 @@
+/* One accent, the Embry green (embry.dev --accent / --accent-bright). */
+:root {
+	--sl-color-accent-low: #0f3d1f;
+	--sl-color-accent: #1a7f37;
+	--sl-color-accent-high: #34c759;
+}
+:root[data-theme='light'] {
+	--sl-color-accent-low: #d9f2e0;
+	--sl-color-accent: #1a7f37;
+	--sl-color-accent-high: #0f4d22;
+}
+.sl-markdown-content img.shot {
+	max-width: 220px;
+	border-radius: 22px;
+	border: 1px solid var(--sl-color-hairline);
+}
+.sl-markdown-content img.wide {
+	border-radius: 10px;
+	border: 1px solid var(--sl-color-hairline);
+}

@@ -1,0 +1,36 @@
+---
+title: Embry Development Wiki
+description: How the Embry Development products work. FieldADE on the phone, HomeADE on the desk, Kingdom Guide, LightScan.
+template: splash
+hero:
+  tagline: File it once. Every chat reads it. This wiki says how.
+  actions:
+    - text: Start here
+      link: /embry-wiki/start/
+      icon: right-arrow
+    - text: embry.dev
+      link: https://embry.dev
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="FieldADE" icon="phone">
+		The iPhone app. See what is due, file what came in, start a chat that already knows the project, and allow each change before it happens.
+		[Read the FieldADE pages](/embry-wiki/fieldade/).
+	</Card>
+	<Card title="HomeADE" icon="laptop">
+		The desk on your Mac or Windows PC where the agents work. Ingest, projects, areas, every chat, skill and model in one window.
+		[Read the HomeADE pages](/embry-wiki/homeade/).
+	</Card>
+	<Card title="Concepts" icon="open-book">
+		The second brain, agents and models, skills and rules, how several agents work at once without stepping on each other.
+		[Read the concepts](/embry-wiki/concepts/second-brain/).
+	</Card>
+	<Card title="Kingdom Guide and LightScan" icon="rocket">
+		A Magic Kingdom day planner for families, and a floor-scanning app built for a foundation repair crew.
+		[Kingdom Guide](/embry-wiki/kingdom-guide/) · [LightScan](/embry-wiki/lightscan/)
+	</Card>
+</CardGrid>
