@@ -7,7 +7,7 @@ description: What the common messages mean and what to do.
 
 **Chats do not start.** Check that Claude Code is installed and signed in (type `claude` in Terminal), then click **Restart HomeADE…** in the antenna menu. Settings → Agents on this machine says what HomeADE found.
 
-**The window is blank or dark.** Reload with ⌘R (Go → Reload). If it stays blank, Go → Classic Window still works; email the log from the antenna menu's **Open the log**.
+**The window is blank or dark.** Reload with ⌘R (Go → Reload). If it stays blank, email the log from the antenna menu's **Open the log**.
 
 **A chat says "API Error 400" on a company gateway.** The gateway needs the model's full id, not a short alias. Set the model list in the machine's configuration to the ids your gateway serves.
 
