@@ -12,7 +12,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Embry Development Wiki',
-			description: 'How the Embry Development products work: FieldADE, HomeADE, Kingdom Guide and LightScan.',
+			description: 'How the Embry Development products work: FieldADE, HomeADE, Kingdom Guide, LightScan, and Flourish.',
 			social: [
 				{ icon: 'external', label: 'embry.dev', href: 'https://embry.dev' },
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/jtembry' },
@@ -65,6 +65,7 @@ export default defineConfig({
 					items: [
 						{ label: 'Kingdom Guide', slug: 'kingdom-guide' },
 						{ label: 'LightScan', slug: 'lightscan' },
+						{ label: 'Flourish Financial Group', slug: 'flourish' },
 					],
 				},
 				{

@@ -23,6 +23,10 @@ Read next:
 
 **[LightScan](/embry-wiki/lightscan/)** is a custom build for a foundation repair company: the estimator walks the house and the phone draws the floor plan and a heat map of where the floor sags. It is not a public download.
 
+## A website
+
+**[Flourish Financial Group](/embry-wiki/flourish/)** is a site for an accredited financial counselor. She updates it herself. Hosting costs nothing a month.
+
 ## Where else to look
 
 - [embry.dev](https://embry.dev): the products, downloads, release notes and how to hire the studio.

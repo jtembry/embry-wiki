@@ -20,7 +20,7 @@ Then four weeks of training beside your staff on real work. [How the training wo
 
 ## Custom builds
 
-When the office needs a piece the system does not have, such as a customer portal, a scheduling tool, or a phone app for the crew, it is built to plug into the same system, with your records kept in a place you own. A working prototype within days, then changes together until it fits. You own the code. [LightScan](/embry-wiki/lightscan/) and the [Flourish Financial Group site](https://embry.dev/flourish) are two examples.
+When the office needs a piece the system does not have, such as a customer portal, a scheduling tool, or a phone app for the crew, it is built to plug into the same system, with your records kept in a place you own. A working prototype within days, then changes together until it fits. You own the code. [LightScan](/embry-wiki/lightscan/) and the [Flourish Financial Group site](/embry-wiki/flourish/) are two examples.
 
 ## Ask
 
