@@ -3,7 +3,7 @@ title: Chats
 description: The Agents screen, starting a chat, the dots, Allow and Deny, branches, tags, pictures and files, dictation, the voice call, terminals.
 ---
 
-The **Agents** section lists every chat on every paired machine, one section per machine with that machine's usage meters at the top, then its open terminals, then an **All sessions** tree of every other session on that machine grouped by folder (tap one to adopt it onto the list).
+The **Agents** section lists every chat on every paired machine, then its open terminals and an **All sessions** tree of every other session on that machine grouped by folder (tap one to adopt it onto the list). Tap the **Models** button in the top bar to see each machine's available models and its current usage limits, including reset times. Pull down there to refresh. Claude models configured directly on the phone appear in their own group; direct API key limits aren't reported there.
 
 ## Starting a chat
 

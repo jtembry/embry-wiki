@@ -9,7 +9,7 @@ The window is a sidebar of sections on the left and the open section on the righ
 
 - **Search** at the top (⌘K or Ctrl-K) finds projects, areas and chats by name, with every other note folded under Other notes and an **Ask Claude about "…"** button that opens a chat with the matching notes in front of it.
 - Sections: Today, Email, Messages, Calendar, Ingest, Projects, Areas, Agents, Tickets (when a machine has a queue), Setup, Settings. Drag a row to reorder it, right-click to hide it; Settings → Sidebar does the same with buttons. Today and Settings never hide.
-- The foot shows each assistant's limit as meters, the live dot, Look and Sign out, and the version.
+- The foot shows Claude, Grok and OpenAI Codex limits as meters, the live dot, Look and Sign out, and the version. Hover over the meters for each window's reset time; click them to check again.
 - When other machines are paired as peers, an **on \<name\>** menu switches the whole window to show that machine.
 
 ## Sections
