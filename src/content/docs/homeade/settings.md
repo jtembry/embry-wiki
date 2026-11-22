@@ -23,6 +23,10 @@ Other HomeADE machines paired as **peers**: show one in this window, remove it, 
 
 Which model does each small job on this machine: naming chats first. Automatic uses a small model matched to the chat's agent.
 
+## Your runs
+
+Every model you used on this machine in the last 30 days: replies, the share that finished the job (the green dot), median reply time, tokens per reply and errors.
+
 ## Sidebar
 
 Order and hide the sidebar rows. Per browser; the Mac classic window and the phone keep their own order.
