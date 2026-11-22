@@ -15,6 +15,14 @@ Tap a ticket (or **Start a chat**). A folder picker opens on that machine; pick 
 
 **Open in Jira** opens the ticket's page.
 
+## Epics become Projects
+
+Each ticket row shows its Jira Epic, when it has one, beside its status. Start a chat on a ticket and its Epic is added to your vault's Projects (made the first time, reused after), and the chat is labelled with that Project. A Project you already made with the same name is used as it is. Rename the Project later and new chats on that Epic still find it. A ticket with no Epic starts its chat with no label, as before.
+
+## The ticket on the Agents screen
+
+A chat started from a ticket shows the ticket's key and the column it is in on the Jira board (In Progress, Code Review, and so on) under its name in the chat list. The column is checked again every few minutes while the list is open.
+
 ## Filters
 
 Filter the queue by project, sprint, fix version, status, and **mine**. The filters are per machine and stay where you set them.
