@@ -1,0 +1,8 @@
+# Custom domain for the public wiki. Pages still builds and hosts the files.
+# Deploy: npx wrangler deploy (from this folder). The login must be allowed to attach a Worker hostname.
+name = "embry-wiki"
+main = "src/index.js"
+compatibility_date = "2026-11-22"
+workers_dev = false
+
+routes = [{ pattern = "wiki.embry.dev", custom_domain = true }]

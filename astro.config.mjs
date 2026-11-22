@@ -2,10 +2,9 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// Served by GitHub Pages. Until the wiki.embry.dev CNAME exists the site lives at
-// https://jtembry.github.io/embry-wiki/ (hence `base`). To move it to wiki.embry.dev:
-// add a CNAME record wiki → jtembry.github.io in Cloudflare, put `wiki.embry.dev` in
-// public/CNAME, set `site` to https://wiki.embry.dev and delete `base`.
+// Served by GitHub Pages at https://jtembry.github.io/embry-wiki/ (hence `base`).
+// https://wiki.embry.dev is the Worker in host/, which forwards here and strips the prefix.
+// Keep `base`. A grey-cloud CNAME to jtembry.github.io would fight that Worker for the name.
 export default defineConfig({
 	site: 'https://jtembry.github.io',
 	base: '/embry-wiki',

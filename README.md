@@ -2,7 +2,7 @@
 
 Public documentation for the Embry Development products: FieldADE, HomeADE, Kingdom Guide and LightScan. Built with [Astro Starlight](https://starlight.astro.build) and deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`.
 
-Live: https://jtembry.github.io/embry-wiki/ (moving to https://wiki.embry.dev once the DNS record exists; see `astro.config.mjs`).
+Live: https://wiki.embry.dev (a Worker in `host/` that forwards to GitHub Pages). The Pages address https://jtembry.github.io/embry-wiki/ still works, and a push to `main` still publishes there.
 
 ```
 npm install
