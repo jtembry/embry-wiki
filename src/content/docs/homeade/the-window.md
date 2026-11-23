@@ -29,3 +29,12 @@ The window is a sidebar of sections on the left and the open section on the righ
 ## Keyboard
 
 ⌘N new chat, ⌘1 to ⌘9 the sidebar rows, ⌘K search, ⌘, Settings, ⌘R reload. In a chat, Return sends and Shift-Return breaks a line. Esc stops the reply and puts your message back in the box. The up and down arrows recall what you sent. ⌘⇧D (Ctrl+Shift+D on Windows) starts and stops dictation.
+
+### Three-key shortcuts and a macro pad
+
+Three actions run the window with one hand: **Previous chat** (Ctrl+Shift+←), **Talk** (Ctrl+Shift+D) and **Next chat** (Ctrl+Shift+→). A three-key macro pad can send them. Change the keys in Settings → Shortcuts.
+
+- **Talk:** hold to speak, and the words land in the box unsent. Tap it to turn the microphone on or off.
+- **Double-tap**, by default: Previous chat = Esc, Talk = Send, Next chat = Clear prompt (empties the box). Settings → Shortcuts sets each key's double-tap; **None** makes the single press act at once.
+- **Two keys together:** Previous chat + Talk = Send. Talk + Next chat = Esc.
+- **All three keys together** = New chat. **All three twice** = close the open chat; Enter confirms, Esc keeps it.
