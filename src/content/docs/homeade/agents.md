@@ -3,7 +3,7 @@ title: Agents in HomeADE
 description: The chat list, every session on the machine, terminals, and the chat pane.
 ---
 
-The **Agents** section lists this machine's chats on the left and the open chat on the right.
+The **Sessions** section lists this machine's chats on the left and the open chat on the right. The sidebar's **Agents** row is a different thing: the task-specific agents a new chat can run as, listed per source with each one's brief, tools and model.
 
 ## The list
 
