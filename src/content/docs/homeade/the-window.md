@@ -8,13 +8,15 @@ The window is a sidebar of sections on the left and the open section on the righ
 ## Sidebar
 
 - **Search** at the top (⌘K or Ctrl-K) finds projects, areas and chats by name, with every other note folded under Other notes and an **Ask Claude about "…"** button that opens a chat with the matching notes in front of it.
-- Sections: Today, Email, Messages, Calendar, Ingest, Projects, Areas, Agents, Tickets (when a machine has a queue), Setup, Settings. Drag a row to reorder it, right-click to hide it; Settings → Sidebar does the same with buttons. Today and Settings never hide.
+- Sections: Today, Email, Messages, Calendar, Ingest, Outbox, Projects, Areas, Agents, Tickets (when a machine has a queue), Setup, Settings. Drag a row to reorder it, right-click to hide it; Settings → Sidebar does the same with buttons. Today and Settings never hide.
 - The foot shows Claude, Grok and OpenAI Codex limits as meters, the live dot, Look and Sign out, and the version. Hover over the meters for each window's reset time; click them to check again.
 - When other machines are paired as peers, an **on \<name\>** menu switches the whole window to show that machine.
 
 ## Sections
 
 **Today, Email, Messages, Calendar, Ingest, Projects, Areas** are the phone's sections with the same rows. Row buttons appear under a row on hover (always, on a touch screen): archive, delete, unsubscribe, Triage with the exact-plan dialog, add to calendar, Open (the reader, with the email's HTML in a frame), Respond with AI (the draft sheet with From, attachments and Send), Send to AI. Ingest rows have Triage, File and File private for scans, Transcribe for a recording, Send to AI and Delete. Cards have Rename and Archive and open the note reader. The Work Log lists archived roll-ups and ticked to-dos with Restore.
+
+**Outbox** lists the drafts in the vault's `Outbox` folder, each with a big **COPY** button. Click a row to read the whole draft, with COPY and **Done** (asks first, then moves the note to the Mac's Trash). Today shows a row when drafts are waiting.
 
 **Agents** is covered on [its own page](/embry-wiki/homeade/agents/).
 
