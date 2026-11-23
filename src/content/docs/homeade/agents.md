@@ -3,7 +3,7 @@ title: Agents in HomeADE
 description: The chat list, every session on the machine, terminals, and the chat pane.
 ---
 
-The **Sessions** section lists this machine's chats on the left and the open chat on the right. The sidebar's **Agents** row is a different thing: the task-specific agents a new chat can run as, listed per source with each one's brief, tools and model.
+The **Sessions** section lists this machine's chats on the left and the open chat on the right. The sidebar's **Agents** row is a different thing: the task-specific agents a new chat can run as, listed per source with each one's brief, tools and model. Click one for its page: description, model, tools as switches in three groups (built-in, connectors, other), and the prompt. A vault agent's description, model and tools save from there; the prompt is edited in Obsidian or by **Ask a chat to revise**. A chat already running as that agent picks up a change on its next message.
 
 ## The list
 

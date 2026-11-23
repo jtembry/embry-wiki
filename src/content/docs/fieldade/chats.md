@@ -13,7 +13,7 @@ Tap **+**. Pick a model (an ⓘ on each row says what it does best; **Terminal**
 
 An agent is a role with a short brief, a few tools and a model: a Filer that only files notes, a Writer with no web search, a Researcher that only writes into the inbox, a Shipper for code. A chat started as one keeps that agent for its life and shows it as a chip in the header beside the branch. Fewer tools means better choices, so each agent lists only what its job needs.
 
-**More › Agents** lists the agents on each machine, vault ones first, with each one's description, tools and model; tap a vault row to open its file in Obsidian. The list is read-only. To make or change one, ask any chat: "make me a Reviewer agent that can only read and comment". It writes the file into the vault's System/Agents folder, and the machine links it in for the next new chat.
+**More › Agents** lists the agents on each machine, vault ones first, with each one's description, tools and model. Tap one for its page: what it does, the model it runs on, its tools in three groups (built-in, connectors, other), and its prompt. For an agent in the vault you can change the description, the model and the tools there and tap **Save**; a count past eight tools is flagged, since fewer tools means better choices. The prompt itself is edited in Obsidian (**Open in Obsidian**) or by a chat (**Ask a chat to revise**, which opens a chat with the file in front of it). A chat already running as that agent picks up a change on its next message. To make a new agent, ask any chat: "make me a Reviewer agent that can only read and comment". It writes the file into the vault's System/Agents folder, and the machine links it in for the next new chat.
 
 ## The dots
 
