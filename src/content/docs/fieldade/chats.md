@@ -7,7 +7,7 @@ The **Sessions** section lists every chat on every paired machine, then its open
 
 ## Starting a chat
 
-Tap **+**. Pick a model (an ⓘ on each row says what it does best; **Terminal** is the last row). Pick a folder; inside a git repo, **Own branch** gives the chat its own branch (see [Agents working in parallel](/embry-wiki/concepts/working-in-parallel/)). For a Claude chat, the **Agent** row above the Start button picks a task-specific agent, or **No agent** for the full assistant; the button then reads **Start as Writer**. The chat names itself after its first reply and guesses its project tag; rename or retag from a right swipe.
+Tap **+**. Pick a model (an ⓘ on each row says what it does best; **Terminal** is the last row). Pick a folder; inside a git repo, **Own branch** gives the chat its own branch (see [Agents working in parallel](/embry-wiki/concepts/working-in-parallel/)). For a Claude chat, the **Agent** row above the Start button picks a task-specific agent, or **No agent** for the full assistant; the button then reads **Start as Writer on Opus 5.5**. An agent runs on its own model, whatever model you picked first, and the row under the menu shows that model's price, a benchmark score and how the agent has done for you. The chat names itself after its first reply and guesses its project tag; rename or retag from a right swipe.
 
 ## Agents
 
