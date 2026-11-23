@@ -32,14 +32,14 @@ The window is a sidebar of sections on the left and the open section on the righ
 
 ## Keyboard
 
-⌘N new chat, ⌘1 to ⌘9 the sidebar rows, ⌘K search, ⌘, Settings, ⌘R reload. In a chat, Return sends and Shift-Return breaks a line. Esc stops the reply and puts your message back in the box. The up and down arrows recall what you sent. ⌘⇧D (Ctrl+Shift+D on Windows) starts and stops dictation.
+⌘N new chat, ⌘1 to ⌘9 the sidebar rows, ⌘K search, ⌘, Settings, ⌘R reload. In a chat, Return sends and Shift-Return breaks a line. Esc stops the reply and puts your message back in the box. The up and down arrows recall what you sent. ⌘⇧D (Ctrl+Shift+D on Windows) starts and stops dictation. While you speak, the words appear dimmed at the cursor and fill in every second or two. When you stop, the final text replaces them, and nothing is sent. Esc throws the recording away and leaves the box as it was. Speech is turned into text on this computer; it never goes to the cloud.
 
 ### Three-key shortcuts and a macro pad
 
 Three actions run the window with one hand: **Previous chat** (Ctrl+Shift+←), **Talk** (Ctrl+Shift+D) and **Next chat** (Ctrl+Shift+→). A three-key macro pad can send them. Change the keys in Settings → Shortcuts.
 
 - **Previous chat / Next chat:** each tap moves one chat at once, so quick taps scroll the list.
-- **Talk:** hold to speak, and the words land in the box unsent. Tap it to turn the microphone on or off. Double-tap it to send.
+- **Talk:** hold to speak. The words show dimmed in the box as you talk, and the final text lands unsent when you let go. Tap it to turn the microphone on or off. Double-tap it to send.
 - **Two keys together:** Talk + Previous chat = Esc. Talk + Next chat = Clear prompt (empties the box). Previous chat + Next chat = Refresh: the window reloads, as ⌘R does. A recording in progress is thrown away, and text in the box is not kept.
 - **All three keys together** opens the **New chat** picker. It lists **No agent** on each model, then each agent with the model it runs on. The highlight starts on the model or agent picked above the chat list. Previous chat and Next chat move the highlight; double-tap Talk (or press Enter, or click a row) to start the chat; press Talk + Previous chat (or Esc) to cancel. The **+ New chat** button still starts a chat at once.
 - **All three twice** = close the open chat. To confirm, double-tap Talk or press Enter; to keep the chat, press Talk + Previous chat or Esc.
