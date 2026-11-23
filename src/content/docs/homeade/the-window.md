@@ -34,7 +34,8 @@ The window is a sidebar of sections on the left and the open section on the righ
 
 Three actions run the window with one hand: **Previous chat** (Ctrl+Shift+←), **Talk** (Ctrl+Shift+D) and **Next chat** (Ctrl+Shift+→). A three-key macro pad can send them. Change the keys in Settings → Shortcuts.
 
-- **Talk:** hold to speak, and the words land in the box unsent. Tap it to turn the microphone on or off.
-- **Double-tap**, by default: Previous chat = Esc, Talk = Send, Next chat = Clear prompt (empties the box). Settings → Shortcuts sets each key's double-tap; **None** makes the single press act at once.
-- **Two keys together:** Previous chat + Talk = Send. Talk + Next chat = Esc.
-- **All three keys together** = New chat. **All three twice** = close the open chat; Enter confirms, Esc keeps it.
+- **Previous chat / Next chat:** each tap moves one chat at once, so quick taps scroll the list.
+- **Talk:** hold to speak, and the words land in the box unsent. Tap it to turn the microphone on or off. Double-tap it to send.
+- **Two keys together:** Talk + Previous chat = Esc. Talk + Next chat = Clear prompt (empties the box).
+- **All three keys together** = New chat. **All three twice** = close the open chat. To confirm, double-tap Talk or press Enter; to keep the chat, press Talk + Previous chat or Esc.
+- Settings → Shortcuts can give Previous chat and Next chat a double-tap too. A key with a double-tap waits a moment before its single press acts; **None** (the default for both) acts at once.
