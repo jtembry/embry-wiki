@@ -23,6 +23,10 @@ Other HomeADE machines paired as **peers**: show one in this window, remove it, 
 
 Which model does each small job on this machine: naming chats first. Automatic uses a small model matched to the chat's agent.
 
+## Models on this machine
+
+Every model on this machine in one table: published price, context size, speed and benchmark scores (each score links its source), plus your own runs. Tick two or three and press Compare to see them side by side; the best value in each row is marked.
+
 ## Your runs
 
 Every model you used on this machine in the last 30 days: replies, the share that finished the job (the green dot), median reply time, tokens per reply and errors.

@@ -27,6 +27,8 @@ Every paired machine, with its live route ("Relay · end-to-end" or "Direct · a
 
 Which model does each small job (naming chats, planning triage, drafting replies) on each machine, or Automatic. Phone-only chats pick their naming model here too.
 
+**All models · compare** lists every model on that machine by provider, with published price, context size, speed and benchmark scores (each score links its source). Tick two or three and tap Compare to see them side by side; the best value in each row is marked.
+
 **Your runs** under each machine lists every model you used there in the last 30 days: replies, the share that finished the job (the green dot), median reply time, tokens per reply and errors.
 
 ## Look
