@@ -1,13 +1,19 @@
 ---
 title: Chats
-description: The Agents screen, starting a chat, the dots, Allow and Deny, branches, tags, pictures and files, dictation, the voice call, terminals.
+description: The Sessions screen, starting a chat, agents, the dots, Allow and Deny, branches, tags, pictures and files, dictation, the voice call, terminals.
 ---
 
-The **Agents** section lists every chat on every paired machine, then its open terminals and an **All sessions** tree of every other session on that machine grouped by folder (tap one to adopt it onto the list). Tap the **Models** button in the top bar to see each machine's available models and its current usage limits, including reset times. Pull down there to refresh. Claude models configured directly on the phone appear in their own group; direct API key limits aren't reported there.
+The **Sessions** section lists every chat on every paired machine, then its open terminals and an **All sessions** tree of every other session on that machine grouped by folder (tap one to adopt it onto the list). Tap the **Models** button in the top bar to see each machine's available models and its current usage limits, including reset times. Pull down there to refresh. Claude models configured directly on the phone appear in their own group; direct API key limits aren't reported there.
 
 ## Starting a chat
 
-Tap **+**. Pick a model (an ⓘ on each row says what it does best; **Terminal** is the last row). Pick a folder; inside a git repo, **Own branch** gives the chat its own branch (see [Agents working in parallel](/embry-wiki/concepts/working-in-parallel/)). The chat names itself after its first reply and guesses its project tag; rename or retag from a right swipe.
+Tap **+**. Pick a model (an ⓘ on each row says what it does best; **Terminal** is the last row). Pick a folder; inside a git repo, **Own branch** gives the chat its own branch (see [Agents working in parallel](/embry-wiki/concepts/working-in-parallel/)). For a Claude chat, the **Agent** row above the Start button picks a task-specific agent, or **No agent** for the full assistant; the button then reads **Start as Writer**. The chat names itself after its first reply and guesses its project tag; rename or retag from a right swipe.
+
+## Agents
+
+An agent is a role with a short brief, a few tools and a model: a Filer that only files notes, a Writer with no web search, a Researcher that only writes into the inbox, a Shipper for code. A chat started as one keeps that agent for its life and shows it as a chip in the header beside the branch. Fewer tools means better choices, so each agent lists only what its job needs.
+
+**More › Agents** lists the agents on each machine, vault ones first, with each one's description, tools and model; tap a vault row to open its file in Obsidian. The list is read-only. To make or change one, ask any chat: "make me a Reviewer agent that can only read and comment". It writes the file into the vault's System/Agents folder, and the machine links it in for the next new chat.
 
 ## The dots
 
@@ -21,7 +27,7 @@ A row's second line shows its tag and folder; a third line shows the next follow
 ## Inside a chat
 
 - **Allow / Deny** cards appear before a file edit or a command. The first screen to answer wins; the card disappears everywhere else.
-- The header shows the mode (Ask / Auto), effort, model and the branch chip. Tap any to change it.
+- The header shows the mode (Ask / Auto), effort, model and the branch chip. Tap any to change it. A chat started as an agent also shows that agent's chip; it stays for the chat's life.
 - **Swipe left or right** on the chat to turn the page to the next or previous chat.
 - Replies are one bubble each, with headings, lists, tables and code blocks. Code blocks have **COPY** and **TERMINAL**, which opens a shell in the chat's folder with the code pasted and waits for Return.
 - A picture the agent shows appears above its text; long-press to copy, share or save.
