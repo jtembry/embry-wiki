@@ -36,6 +36,6 @@ Three actions run the window with one hand: **Previous chat** (Ctrl+Shift+←), 
 
 - **Previous chat / Next chat:** each tap moves one chat at once, so quick taps scroll the list.
 - **Talk:** hold to speak, and the words land in the box unsent. Tap it to turn the microphone on or off. Double-tap it to send.
-- **Two keys together:** Talk + Previous chat = Esc. Talk + Next chat = Clear prompt (empties the box).
+- **Two keys together:** Talk + Previous chat = Esc. Talk + Next chat = Clear prompt (empties the box). Previous chat + Next chat = Refresh: the window reloads, as ⌘R does. A recording in progress is thrown away, and text in the box is not kept.
 - **All three keys together** = New chat. **All three twice** = close the open chat. To confirm, double-tap Talk or press Enter; to keep the chat, press Talk + Previous chat or Esc.
 - Settings → Shortcuts can give Previous chat and Next chat a double-tap too. A key with a double-tap waits a moment before its single press acts; **None** (the default for both) acts at once.
