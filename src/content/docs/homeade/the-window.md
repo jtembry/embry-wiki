@@ -26,6 +26,12 @@ The window is a sidebar of sections on the left and the open section on the righ
 
 **Settings** is covered on [its own page](/embry-wiki/homeade/settings/).
 
+## Back and reopening
+
+Every section but Today shows **‹** and the name of the screen before it, above the title. Click it, or use the browser's or mouse's Back, to step back one screen at a time; Today is the start. In a narrow window a chat also has **‹ Chats** to return to the list.
+
+The window reopens where you left it: the same section, the same chat, the search you typed, and the note or agent page you had open. A chat that was closed since opens the Sessions list instead.
+
 ## Looks
 
 **DOS** (green phosphor on black) or **Professional**, from the sidebar foot. The choice is per browser or per Mac.

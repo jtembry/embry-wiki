@@ -40,6 +40,12 @@ Drafts an agent wrote for you to send yourself: one note each in the vault's `Ou
 
 Outbox, Skills, Rules, Hooks, Connectors, Scheduled, Tickets (when a machine has a ticket queue), Vault (search over your notes, by title then by meaning), Ingest Log, Work Log, and an embry.dev link at the end. Each config section has one block per paired machine.
 
+## Back and reopening
+
+Every screen but Today has a back arrow at the top left. It returns to the screen you came from, one step at a time, and ends at Today. Chats, terminals and Settings pages keep the usual iPhone back arrow and edge swipe; every sheet has its X.
+
+When you close FieldADE and open it again, it comes back where you were: the same section (or More), the same chat, Settings and the page you had open in it, and the note you were reading. A chat or machine that is gone since opens Today or the list instead.
+
 ## Related
 
 - [Ingest](/embry-wiki/fieldade/ingest/)
