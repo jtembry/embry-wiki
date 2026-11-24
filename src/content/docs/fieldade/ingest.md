@@ -34,6 +34,8 @@ A file in the Ingest folder that is not a note shows as a row with its kind and 
 
 The box at the top of Ingest writes a note straight into the folder. Tap and hold to paste a photo or screenshot; thumbnails show above the box. Offline, the phone writes the note into its own copy of the vault.
 
+The app icon's **New note** shortcut opens a larger capture sheet. Type or paste an image there, then tap **Save** at the top left. The close button stays at the top right.
+
 ## The share sheet
 
 Share a photo, a file, a link or text from any app to FieldADE and it lands in Ingest. See [Widgets, share sheet, CarPlay](/embry-wiki/fieldade/widgets-share-carplay/).
