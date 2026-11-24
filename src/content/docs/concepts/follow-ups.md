@@ -11,7 +11,7 @@ When an agent says "wait a day, then look at the log", it does not have to remem
 - **Today** has a Follow-ups block of every pending check across your machines.
 - **The calendar** lists each one under its day; checks past the synced week sit under Later follow-ups.
 - **Scheduled** (under Setup or More) lists them with every other timed job on the machine, with a Cancel button.
-- A push arrives when one fires, and tapping it opens the chat.
+- A push arrives when one fires, and tapping it opens the chat. If that chat has since been closed, the tap opens Today instead of some other chat.
 
 ## Scheduling your own
 
@@ -19,7 +19,12 @@ You can schedule a message of your own to a chat from the phone the same way; it
 
 ## Closing the chat
 
-A follow-up outlives its chat. Close the chat and the check still fires: it reopens that conversation if the transcript is still on the machine, or starts a fresh "Follow-up" chat if not. Until then it is listed as "(closed)" on Today and the calendar, and can be cancelled there. Deleting a chat deletes its follow-ups.
+A follow-up outlives its chat, but it never reopens a chat on its own. Until its time it is listed as "(closed)" on Today and the calendar, and can be cancelled there. When its time comes nothing is sent: a push says "Follow-up due" and Today shows it under **Follow-ups due** with two buttons:
+
+- **Run** reopens that conversation and sends the check into it, then opens the chat. If the conversation is gone from the machine, or open in a terminal right now, it says so and the row stays.
+- **Dismiss** drops it. Nothing is sent.
+
+Nothing appears in your chat list unless you tap Run. A follow-up also waits this way if its chat is still open but has moved on to a different conversation. Deleting a chat deletes its follow-ups.
 
 ## Apple Reminders
 

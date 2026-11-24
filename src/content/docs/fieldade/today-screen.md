@@ -16,6 +16,7 @@ Open FieldADE and you are on **Today**. A glass pill at the bottom holds five se
 ## What Today shows
 
 - **Happening** and **Due**: calendar events for today, and to-dos with a date of today or earlier, with the overdue date under the line. Swipe left on a due row for Done or Archive; swipe right to send that note to an agent.
+- **Follow-ups due**: checks whose chat was closed when their time came. Nothing was sent. **Run** reopens the conversation and sends it; **Dismiss** drops it. HomeADE shows the same block at the top of Today.
 - **Follow-ups**: every check an agent has scheduled, across machines. Tap one to open its chat.
 - **Gone quiet**: projects whose last chat or filed session is two weeks old or more. Tap one to open a chat on it.
 - **N drafts in Outbox**: shown when drafts are waiting. One tap opens the Outbox.
