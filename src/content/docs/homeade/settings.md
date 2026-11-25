@@ -31,6 +31,10 @@ Every model on this machine in one table: published price, context size, speed a
 
 Every model you used on this machine in the last 30 days: replies, the share that finished the job (the green dot), median reply time, tokens per reply and errors.
 
+## Roles
+
+Below the compare table, **Roles** shows which model the overnight router would give each role right now (planner, coder, reviewer, writer, tester, finder) and why, then the record so far: tasks, merged, reverted, win rate, median time, and tokens and an estimated cost per merged task. Until the swarm has run, the picks come from the starting table.
+
 ## Sidebar
 
 Order and hide the sidebar rows. Per browser; the Mac classic window and the phone keep their own order.

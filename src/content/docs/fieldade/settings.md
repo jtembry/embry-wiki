@@ -31,6 +31,8 @@ Which model does each small job (naming chats, planning triage, drafting replies
 
 **Your runs** under each machine lists every model you used there in the last 30 days: replies, the share that finished the job (the green dot), median reply time, tokens per reply and errors.
 
+**Roles · night swarm** at the bottom of a machine's model list shows which model the overnight router would give each role right now (planner, coder, reviewer, writer, tester, finder) and why, then the record so far: tasks, merged, reverted, win rate, median time, and tokens and an estimated cost per merged task. Until the swarm has run, the picks come from the starting table.
+
 ## Look
 
 **Professional** or **DOS**. Also the link browser (Edge or Safari) and a few per-device toggles.
