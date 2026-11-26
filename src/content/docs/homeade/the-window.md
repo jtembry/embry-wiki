@@ -8,7 +8,7 @@ The window is a sidebar of sections on the left and the open section on the righ
 ## Sidebar
 
 - **Search** at the top (⌘K or Ctrl-K) finds projects, areas and chats by name, with every other note folded under Other notes and an **Ask Claude about "…"** button that opens a chat with the matching notes in front of it.
-- Sections: Today, Email, Messages, Calendar, Ingest, Outbox, Projects, Areas, Agents, Tickets (when a machine has a queue), Setup, Settings. Drag a row to reorder it, right-click to hide it; Settings → Sidebar does the same with buttons. Today and Settings never hide.
+- Sections: Today, Sessions, Email, Messages, Calendar, Ingest, Outbox, Projects, Areas, Tickets (when a machine has a queue), Setup, Settings. Drag a row to reorder it, right-click to hide it; Settings → Sidebar does the same with buttons. Today and Settings never hide. Saved agents are the Agents tab under Setup, not a row of their own.
 - The foot shows Claude, Grok and OpenAI Codex limits as meters, the live dot, Look and Sign out, and the version. Hover over the meters for each window's reset time; click them to check again.
 - When other machines are paired as peers, an **on \<name\>** menu switches the whole window to show that machine.
 
@@ -20,9 +20,9 @@ The window is a sidebar of sections on the left and the open section on the righ
 
 **Outbox** lists the drafts in the vault's `Outbox` folder, each with a big **COPY** button. Click a row to read the whole draft, with COPY and **Done** (asks first, then moves the note to the Mac's Trash). Today shows a row when drafts are waiting.
 
-**Agents** is covered on [its own page](/embry-wiki/homeade/agents/).
+**Sessions** is covered on [its own page](/embry-wiki/homeade/agents/).
 
-**Setup** has tabs for Connectors, Skills, Hooks, Rules, Scheduled and Commands, read from this machine; **Re-check** refreshes. See [Skills, rules, hooks, connectors](/embry-wiki/concepts/skills-rules-hooks-connectors/).
+**Setup** has tabs for Connectors, Skills, Agents, Hooks, Rules, Scheduled and Commands. The Agents tab lists the saved roles, and a click opens one so you can change its description, model and tools. **Re-check** refreshes. See [Skills, rules, hooks, connectors](/embry-wiki/concepts/skills-rules-hooks-connectors/).
 
 **Settings** is covered on [its own page](/embry-wiki/homeade/settings/).
 
