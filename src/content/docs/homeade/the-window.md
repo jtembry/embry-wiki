@@ -3,7 +3,7 @@ title: The HomeADE window
 description: The sidebar, the sections, search, row actions, the two looks, and what is the same as the phone.
 ---
 
-The window is a sidebar of sections on the left and the open section on the right. On the Mac it opens from the antenna menu or the Dock; on Windows from the tray.
+The window is a sidebar of sections on the left and the open section beside it. An open chat stays on the right while you move between sections. On the Mac it opens from the antenna menu or the Dock; on Windows from the tray.
 
 ## Sidebar
 
@@ -28,7 +28,9 @@ The window is a sidebar of sections on the left and the open section on the righ
 
 ## Back and reopening
 
-Every section but Today shows **‹** and the name of the screen before it, above the title. Click it, or use the browser's or mouse's Back, to step back one screen at a time; Today is the start. In a narrow window a chat also has **‹ Chats** to return to the list.
+Every section but Today shows **‹** and the name of the screen before it, above the title. Click it, or use the browser's or mouse's Back, to step back one screen at a time; Today is the start. That Back leaves the open chat where it is. In a narrow window the chat covers the section and has **Close** to put the section back.
+
+On the phone, leaving a chat leaves a line above the section bar with the title and, when it has one, the last sentence. Tap the line to return to the chat. The × hides the line. The chat keeps running.
 
 The window reopens where you left it: the same section, the same chat, the search you typed, and the note or agent page you had open. A chat that was closed since opens the Sessions list instead.
 

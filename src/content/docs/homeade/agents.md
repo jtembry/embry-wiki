@@ -3,7 +3,7 @@ title: Agents in HomeADE
 description: The chat list, every session on the machine, terminals, and the chat pane.
 ---
 
-The **Sessions** section lists this machine's chats on the left and the open chat on the right. Saved agents, the task-specific roles a new chat can run as, live on **Setup › Agents**: one list per source, each with its brief, tools and model. Click one for its page: description, model, tools as switches in three groups (built-in, connectors, other), and the prompt. A vault agent's description, model and tools save from there; the prompt is edited in Obsidian or by **Ask a chat to revise**. A chat already running as that agent picks up a change on its next message. **+ Make an agent** asks what it should do, then opens a chat that writes the file.
+The **Sessions** section lists this machine's chats. The open chat sits to the right of whatever section you are in, so you can read Projects, Calendar, or a note while the chat stays up. Saved agents, the task-specific roles a new chat can run as, live on **Setup › Agents**: one list per source, each with its brief, tools and model. Click one for its page: description, model, tools as switches in three groups (built-in, connectors, other), and the prompt. A vault agent's description, model and tools save from there; the prompt is edited in Obsidian or by **Ask a chat to revise**. A chat already running as that agent picks up a change on its next message. **+ Make an agent** asks what it should do, then opens a chat that writes the file.
 
 ## The list
 
@@ -14,7 +14,11 @@ The **Sessions** section lists this machine's chats on the left and the open cha
 
 ## The chat
 
-The same chat as the phone: history paged by **Older messages…**, streaming replies, the Allow/Deny card, a composer with **+** for pictures and files (pasted or dropped images are scaled and sent in line), `/` for the skill menu, Enter to send. A microphone button (⌘⇧D, or Ctrl+Shift+D) types what you say into the box, using this computer's microphone; on Apple silicon the first use downloads a speech model onto this Mac, and nothing is sent until you send it. If the microphone is off, the notice has **Open Microphone settings**, which opens Privacy & Security → Microphone on a Mac and Privacy & security → Microphone on Windows. A tap that is too short asks you to click MIC, speak, then click STOP. A longer silent recording names the microphone and opens Sound → Input, where the volume is. If a recording cannot be read, the notice says to try again. The up and down arrows recall what you sent. The header has the tag chip, the agent chip when the chat runs as one, the model menu, the Ask/Auto toggle, the effort menu and ⋯. New chats start in Auto. Settings can make them ask first again.
+The same chat as the phone: history paged by **Older messages…**, streaming replies, the Allow/Deny card, a composer with **+** for pictures and files (pasted or dropped images are scaled and sent in line), `/` for the skill menu, Enter to send.
+
+**Hide** folds the chat to one line under the section: the title, Working or Allow, and the last sentence. The chat keeps running. Click the line to open it. The × on that line closes the view. Drag the chat's left edge to make it wider or narrower. On Sessions the list stays on the left. On a narrow window the chat covers the section, and **Close** (or **‹ Chats**) brings the section back.
+
+A microphone button (⌘⇧D, or Ctrl+Shift+D) types what you say into the box, using this computer's microphone; on Apple silicon the first use downloads a speech model onto this Mac, and nothing is sent until you send it. If the microphone is off, the notice has **Open Microphone settings**, which opens Privacy & Security → Microphone on a Mac and Privacy & security → Microphone on Windows. A tap that is too short asks you to click MIC, speak, then click STOP. A longer silent recording names the microphone and opens Sound → Input, where the volume is. If a recording cannot be read, the notice says to try again. The up and down arrows recall what you sent. The header has the tag chip, the agent chip when the chat runs as one, the model menu, the Ask/Auto toggle, the effort menu and ⋯. New chats start in Auto. Settings can make them ask first again.
 
 A picture the agent shows appears in line. Close chat ends it; the row drops into the All sessions group.
 
