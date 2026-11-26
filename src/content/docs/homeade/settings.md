@@ -39,6 +39,10 @@ Below the compare table, **Roles** shows which model the overnight router would 
 
 Order and hide the sidebar rows. Per browser; the Mac classic window and the phone keep their own order.
 
+## Dictation
+
+Pick what the microphone button and Talk use: **Whisper (HomeADE)**, the default, or **System dictation** (macOS Dictation on a Mac, Windows voice typing on Windows). Per window, like the shortcuts. See [The window](/embry-wiki/homeade/the-window/#whisper-or-system-dictation).
+
 ## First run
 
 Today shows a banner pointing here when the machine has no vault or no inbox yet.
