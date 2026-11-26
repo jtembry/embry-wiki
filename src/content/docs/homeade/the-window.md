@@ -45,10 +45,10 @@ The window reopens where you left it: the same section, the same chat, the searc
 Three actions run the window with one hand: **Previous chat** (Ctrl+Shift+←), **Talk** (Ctrl+Shift+D) and **Next chat** (Ctrl+Shift+→). A three-key macro pad can send them. Change the keys in Settings → Shortcuts.
 
 - **Previous chat / Next chat:** each tap moves one chat at once, so quick taps scroll the list.
-- **Talk:** hold to speak. The words show dimmed in the box as you talk, and the final text lands unsent when you let go. Tap it to turn the microphone on or off. Double-tap it to send.
-- **Two keys together:** Talk + Previous chat = Esc. Talk + Next chat = Clear prompt (empties the box). Previous chat + Next chat = Refresh: the window reloads, as ⌘R does. A recording in progress is thrown away, and text in the box is not kept.
+- **Talk:** hold to speak. The words show dimmed in the box as you talk, and the final text lands unsent when you let go. With Whisper only a hold listens; a quick tap does nothing. With system dictation, tap Talk to start and tap it again to stop (macOS takes no sound while a key is held). Double-tap it to send.
+- **Two keys together:** Talk + Previous chat = Clear prompt (empties the box). Talk + Next chat = Esc (with dictation, it throws away what you just said). Previous chat + Next chat = Refresh: the window reloads, as ⌘R does. A recording in progress is thrown away, and text in the box is not kept.
 - **All three keys together** opens the **New chat** picker. It lists **No agent** on each model, then each agent with the model it runs on. The highlight starts on the model or agent picked above the chat list. Previous chat and Next chat move the highlight; double-tap Talk (or press Enter, or click a row) to start the chat; press Talk + Previous chat (or Esc) to cancel. The **+ New chat** button still starts a chat at once.
-- **All three twice** = close the open chat. To confirm, double-tap Talk or press Enter; to keep the chat, press Talk + Previous chat or Esc.
+- **All three twice** = close the open chat. To confirm, double-tap Talk or press Enter; to keep the chat, press Talk + Previous chat, Talk + Next chat, or Esc.
 - Settings → Shortcuts can give Previous chat and Next chat a double-tap too. A key with a double-tap waits a moment before its single press acts; **None** (the default for both) acts at once.
 
 ### Whisper or system dictation
@@ -56,4 +56,4 @@ Three actions run the window with one hand: **Previous chat** (Ctrl+Shift+←), 
 Settings → Dictation picks what the microphone button and Talk use, for this window only.
 
 - **Whisper (HomeADE)**, the default: as above. Whisper adds punctuation, and the final words land when you stop.
-- **System dictation**: the button and Talk put the cursor at the end of the box and start the computer's own dictation (macOS Dictation on a Mac, Windows voice typing on Windows). The words appear as you talk, with no wait afterward. Holding Talk works like a tap; stop with Esc or your dictation key on a Mac, or Win+H on Windows. Double-tap Talk sends what is in the box. In a plain browser the box is focused and a note says which key to press (Control twice on a Mac, Win+H on Windows).
+- **System dictation**: the button and Talk put the cursor at the end of the box and start the computer's own dictation (macOS Dictation on a Mac, Windows voice typing on Windows). The words appear as you talk, with no wait afterward. Tap Talk (or the button) to start and tap it again to stop; the words stay in the box. Double-tap Talk stops dictation and sends the box. Talk + Previous chat stops it and clears the box; Talk + Next chat throws away what you just said. In a plain browser the box is focused and a note says which key to press (Control twice on a Mac, Win+H on Windows).

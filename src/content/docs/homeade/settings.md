@@ -41,7 +41,7 @@ Order and hide the sidebar rows. Per browser; the Mac classic window and the pho
 
 ## Dictation
 
-Pick what the microphone button and Talk use: **Whisper (HomeADE)**, the default, or **System dictation** (macOS Dictation on a Mac, Windows voice typing on Windows). Per window, like the shortcuts. See [The window](/embry-wiki/homeade/the-window/#whisper-or-system-dictation).
+Pick what the microphone button and Talk use: **Whisper (HomeADE)**, the default, or **System dictation** (macOS Dictation on a Mac, Windows voice typing on Windows). With Whisper, hold Talk to talk and let go to stop. With system dictation, tap Talk to start and tap it again to stop. Per window, like the shortcuts. See [The window](/embry-wiki/homeade/the-window/#whisper-or-system-dictation).
 
 ## First run
 
