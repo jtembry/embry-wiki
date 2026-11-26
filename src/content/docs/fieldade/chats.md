@@ -33,6 +33,7 @@ A row's second line shows its tag and folder; a third line shows the next follow
 - A picture the agent shows appears above its text; long-press to copy, share or save.
 - **+** in the input row attaches photos, videos or files. Files upload first and the agent reads them from disk.
 - The **mic** is dictation: words land in the box, nothing sends until you tap Send.
+- **Send** plays a short swish as your message goes out (HomeADE too). It follows the phone's silent switch.
 - **Auto-speak** (the speaker in the chat's controls; tap the dot to open them) reads each new reply aloud as a one- to three-sentence summary, never code or file names. It is per chat and per device, off until you turn it on; when on, a green speaker stays beside the dot. It stops when you type, dictate, send or leave the chat, and stays quiet during a call. For the best voice, download a Premium or Enhanced voice in Settings → Accessibility → Spoken Content → Voices.
 - **📞** starts a voice call with Grok, which can ask the chat's agent questions on your behalf. It works on a locked phone and in CarPlay.
 - Typing a draft on one device fills the box on the others.
