@@ -12,7 +12,7 @@ HomeADE runs on your computer. Claude Code, Codex and Grok still do the writing,
 ## What it is made of
 
 - **The service.** A small program that runs in the background, watches your notes folder and inboxes, runs the agents, and talks to the phone. On the Mac it lives in the menu bar behind an antenna icon with Open at login, Pair a phone, Restart and the log. On Windows it is a tray icon with the same items.
-- **The window.** The same screens as the phone: Today, Sessions, Email, Messages, Calendar, Ingest, Projects, Areas, Tickets, Setup and Settings. Saved agents are under Setup.
+- **The window.** The same screens as the phone: Today, Sessions, Email, Messages, Calendar, Ingest, Projects, Areas, Tickets, Harness and Settings. Saved agents are under Harness.
 - **Your notes.** A folder you choose. HomeADE makes Projects, Areas and Ingest folders in it if they are missing, and never moves anything out.
 
 ## Pages

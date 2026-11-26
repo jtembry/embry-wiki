@@ -3,7 +3,7 @@ title: Skills, rules, hooks, connectors
 description: What an agent can do and what it will follow, listed per machine so you can read it before you start a chat.
 ---
 
-Each agent tool keeps its own configuration in files on the machine. HomeADE and FieldADE read those files and show them in one place, grouped by machine, so you know what a chat can do before you hand it work. Nothing here edits the agent; it is a window onto it.
+Each agent tool keeps its own configuration in files on the machine. HomeADE and FieldADE read those files and show them, grouped by machine, so you know what a chat can do before you hand it work. In the HomeADE window they are the tabs of **Harness**. Nothing here edits the agent; it is a window onto it.
 
 ## Skills
 

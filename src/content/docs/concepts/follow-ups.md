@@ -10,7 +10,7 @@ When an agent says "wait a day, then look at the log", it does not have to remem
 - **The chat row** shows a clock with the weekday, time and text of the next one.
 - **Today** has a Follow-ups block of every pending check across your machines.
 - **The calendar** lists each one under its day; checks past the synced week sit under Later follow-ups.
-- **Scheduled** (under Setup or More) lists them with every other timed job on the machine, with a Cancel button.
+- **Scheduled** (under Harness, or More on the phone) lists them with every other timed job on the machine, with a Cancel button.
 - A push arrives when one fires, and tapping it opens the chat. If that chat has since been closed, the tap opens Today instead of some other chat.
 
 ## Scheduling your own
