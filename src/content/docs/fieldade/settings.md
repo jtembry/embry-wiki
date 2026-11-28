@@ -1,7 +1,18 @@
 ---
 title: Settings
-description: Machines, sources, inboxes, calendars, chats defaults, follow-ups, models for tasks, look, phone only.
+description: Google sign-in, machines, sources, inboxes, calendars, chats defaults, follow-ups, models for tasks, look, phone only.
 ---
+
+## Google
+
+One row at the top: who is signed in and what the sign-in covers, for example **Google: you@gmail.com · Calendar ✓ · Gmail ✓**. The button beside it says what a tap does next:
+
+- **Sign in with Google**: nobody is signed in yet. One sign-in covers your Google calendar and Gmail.
+- **Allow Gmail**: you signed in before Gmail joined. Google asks once more; the calendar stays signed in.
+- **Sign in again**: Google ended the sign-in (you revoked it, or changed your password).
+- **Signed in**: nothing to do.
+
+Under it, each machine that reads that Gmail says whether it has the sign-in too. The phone hands it over by itself, over the same sealed connection it uses for everything else, so the Mac stops needing a Gmail app password. Archive and delete from the phone then work with no app password either; **Settings → Phone alone** keeps **Use an app password instead** for anyone who wants one. iCloud still uses app-specific passwords: Apple has no sign-in button for apps.
 
 ## Machines
 
@@ -12,7 +23,7 @@ Every paired machine, with its live route ("Relay · end-to-end" or "Direct · a
 - **Vault**: which machine's notes feed Today, or **This phone**. Each machine row opens a page to choose the folder on that machine, make it the home vault, and show or hide it on Today.
 - **Email** and **Texts**: which machine's feeds you see, or off.
 - **Calendars**: Google (sign in on the phone), iCloud (Apple Account and an app-specific password), or the calendars on the device, with a switch per calendar. Birthdays and subscribed feeds are left out.
-- **Inboxes**: the mail accounts on the Email machine. Add with address and app password; remove with a swipe.
+- **Inboxes**: the mail accounts on the Email machine. Add with address and app password; remove with a swipe. A Gmail inbox stops needing its app password once you sign in under **Google**.
 
 ## Chats
 

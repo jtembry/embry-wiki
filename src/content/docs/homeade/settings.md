@@ -1,11 +1,15 @@
 ---
 title: HomeADE settings
-description: Vault, inboxes, agents on this machine, machines, models for tasks, sidebar.
+description: Vault, Google sign-in, inboxes, agents on this machine, machines, models for tasks, sidebar.
 ---
 
 ## Vault
 
 The notes folder on this machine, with **Change folder…** (a picker that starts one level above the current vault and lists recent vaults and drives). Changing it restarts the service. A machine can lock this so the folder is set only in its configuration.
+
+## Google
+
+What this machine got from the phone's Google sign-in, in one line: **Google: you@gmail.com · Calendar ✓ · Gmail ✓** when it reads and sends Gmail with the sign-in, or **not signed in · Gmail uses an app password**. The page can't run Google's sign-in itself, so it says **Sign in on your phone** (FieldADE → Settings → Google) and picks the sign-in up by itself. **Stop using Google sign-in here** forgets it on this machine and goes back to the app password. A sign-in Google ended reads **Google sign-in expired. Sign in again on your phone.**
 
 ## Inboxes
 
